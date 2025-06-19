@@ -1,42 +1,88 @@
-# One month in skafis
+# Journey in Skafis
 
-## Atlikti darbai
-
--  Parašiau **PR**, kuriame  į `Grading` entity pridėjau naują `IsGraded` ENUM reikšmę. 
-    - Susipažinau su **MVC architektūra**
-    - Sužinojau, kaip rašyti **Kotlin** kodą
-
-- Darbas su frontendu: bandžiau įdiegti **pagination**.
-  - Dėl deadline šią funkciją pabaigė Naglis, pats išmokau pagrindus apie frontend.
-  - Susipažinau su frontend  integracija su backend’u.
-  - Susipažinau su ***Sveltekit** ir jo naudojimu
-      
-
-- Darbas su API : Atlikau užduotį kur reikėjo, kad **results endpointas** grąžintų reikiamus `grading` duomenis.
-  - Susidūriau su **merge conflicts** problemomis, todėl geriau išmokau naudotis **Git branchingu ir merge** .
-  - Patobulinau savo žinias apie REST API ir jų valdymą.
-
-- Dirbau su **PostgreSQL duomenų bazės lentelėmis**.
-  - Susipažinau su SQL, duomenų modeliavimu ir duomenų bazės struktūromis.
-  - Supratau kaip backend’as jungiasi prie duomenų bazės ir vykdo užklausas.
+This repository documents my technical growth and contributions during my time at **Skafis**.  
+Each month I will update this README with new tasks, technologies, and lessons learned — both from hands-on development and lectures.
 
 ---
 
-## Paskaitos
+## Month 1: June 2025
 
-- **1 lecture:**
-  - Sužinojau apie **MVC architektūrą** ir kaip ji taikoma kuriant API su Kotlin.
-  - Susipažinau su **software development lifecycle** (SDLC) — kaip vyksta projekto kūrimas nuo pradžios iki galo.
-  - Mokiausi naudotis **Git**.
-  - Sužinojau apie **Gradle** build sistemą.
-  - Supratau **DTOs (Data Transfer Objects)** paskirtį ir jų naudojimą.
-  - Įgijau pagrindines žinias apie Kotlin API kūrimą.
+### ✅ Contributions
+- ✅ Added `IsGraded` ENUM to the `Grading` entity
+- ✅ Worked on frontend `pagination` in SvelteKit
+- ✅ Extended `results` endpoint to return grading data
+- ✅ Designed simple PostgreSQL database tables
 
-- **2 lecture:**
-  - Susipažinau su **SvelteKit** framework’u.
-  - Išmokau pagrindus apie frontend kūrimą ir **TypeScript** naudojimą.
-  - Geriau supratau kaip frontend ir backend dalys bendrauja tarpusavyje.
+###  Key Learnings
+- MVC architecture using Kotlin + Spring Boot
+- DTOs and layered API structure
+- Git (branches, PRs, merge conflict resolution)
+- PostgreSQL schema modeling
+- Frontend basics with SvelteKit and TypeScript
 
+📄 → [Month 1 – Detailed Breakdown](#month-1--detailed-breakdown)
 
+---1
 
+## 📄 Month 1 – Detailed Breakdown
 
+### 🔹 Added `IsGraded` ENUM to the `Grading` Entity
+- First GitHub issue completed
+- Created a new branch, implemented the enum, opened a PR
+- Learned:
+  - Kotlin Spring Boot backend structure (Controller, Service, Repository)
+  - MVC architecture in practice
+  - GitHub PR flow
+
+---
+
+### 🔹 Pagination in the Frontend (SvelteKit)
+- Attempted pagination implementation using SvelteKit + TypeScript
+- Due to the deadline, the team lead completed it
+- Gained:
+  - Knowledge of frontend/backend data interaction
+  - SvelteKit basics: routing, components, reactivity
+
+---
+
+### 🔹 Extended `results` Endpoint
+- Modified backend endpoint to return `Grading` data
+- Faced and resolved merge conflicts
+- Learned:
+  - Git branching and conflict resolution
+  - How to return nested data via REST
+  - JSON serialization in Kotlin
+
+---
+
+### 🔹 PostgreSQL Table Design
+- Helped model database structure
+- Designed and modified PostgreSQL tables
+- Learned:
+  - SQL fundamentals (keys, types, relationships)
+  - Connecting PostgreSQL with Spring Boot via `application.yml`
+  - Real-world entity modeling
+
+---
+
+##  Lecture Takeaways
+
+###  Lecture 1 – Backend Concepts
+- MVC architecture
+- Software Development Lifecycle (SDLC)
+- Git fundamentals (branching, merging)
+- Gradle build tool
+- DTOs – why they're used and how to write them
+- Kotlin API layers: controller, service, repository
+
+###  Lecture 2 – Frontend Concepts
+- SvelteKit introduction
+- Routing, state, and API communication
+- TypeScript foundations
+- End-to-end request flow understanding (frontend to DB)
+
+---
+
+##  Month 2: Coming soon...
+
+_(Next month’s progress and learnings will be added here.)_
