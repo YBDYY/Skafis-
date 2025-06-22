@@ -68,6 +68,7 @@ Each month I will update this README with new tasks, technologies, and lessons l
 
 ### 🔹 API Testing with Postman
 - Created and used Postman collections to test backend `take flow`
+- Created and used Postman collections to test backend `content upload flow`
 - Wrote tests using Postman’s built-in JavaScript-based `pm` API
 - Validated response codes, response body data, and headers
 - Learned:
