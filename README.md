@@ -19,6 +19,8 @@ Each month I will update this README with new tasks, technologies, and lessons l
 - Git (branches, PRs, merge conflict resolution)
 - PostgreSQL schema modeling
 - Frontend basics with SvelteKit and TypeScript
+- API testing using Postman (collections, environments, and test scripting)
+
 
 📄 → [Month 1 – Detailed Breakdown](#month-1--detailed-breakdown)
 
@@ -83,6 +85,6 @@ Each month I will update this README with new tasks, technologies, and lessons l
 
 ---
 
-##  Month 2: Coming soon...
+##  Month 2: June 2025 - ......
+-  
 
-_(Next month’s progress and learnings will be added here.)_
